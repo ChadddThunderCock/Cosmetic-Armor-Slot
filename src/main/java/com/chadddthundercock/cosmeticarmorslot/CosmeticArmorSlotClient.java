@@ -1,4 +1,10 @@
 package com.chadddthundercock.cosmeticarmorslot;
 
-public class CosmeticArmorSlotClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class CosmeticArmorSlotClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
 }

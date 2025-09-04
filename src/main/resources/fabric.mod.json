@@ -3,15 +3,15 @@
 	"id": "cosmetic-armor-slot",
 	"version": "${version}",
 	"name": "Cosmetic Armor Slot",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Fabric mod where you can have separate armor on that is displayed.",
 	"authors": [
-		"Me!"
+		"ChadddThunderCock"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ChadddThunderCock",
+		"sources": "https://github.com/ChadddThunderCock/Cosmetic-Armor-Slot"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/cosmetic-armor-slot/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"com.chadddthundercock.cosmeticarmorslot.CosmeticArmorSlotDataGenerator"
-		]
+		],
+        "client": [
+          "com.chadddthundercock.cosmeticarmorslot.CosmeticArmorSlotClient"
+        ]
 	},
 	"mixins": [
 		"cosmetic-armor-slot.mixins.json"
